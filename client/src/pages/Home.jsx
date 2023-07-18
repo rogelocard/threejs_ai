@@ -48,9 +48,21 @@ const Home = () => {
                             />
                         </motion.div>
                     </motion.div>
+
+                    <motion.footer {...slideAnimation("up")} className="text-center mt-8">
+                        <p className="text-gray-500 text-sm">
+                            Tshirt Custumization App -  
+                            <a href="https://cardonaroger.com/" target="_blank">
+                                <span style={{ color: '#DCCA87' }} >
+                                <strong>Roger Cardona</strong>
+                                </span>
+                            </a> All Rights reserved.
+                        </p>
+                    </motion.footer>
                 </motion.section>
             )}
         </AnimatePresence>
+
     )
 }
 
